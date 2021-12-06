@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappeauth_app *.css
+recursive-include frappeauth_app *.csv
+recursive-include frappeauth_app *.html
+recursive-include frappeauth_app *.ico
+recursive-include frappeauth_app *.js
+recursive-include frappeauth_app *.json
+recursive-include frappeauth_app *.md
+recursive-include frappeauth_app *.png
+recursive-include frappeauth_app *.py
+recursive-include frappeauth_app *.svg
+recursive-include frappeauth_app *.txt
+recursive-exclude frappeauth_app *.pyc
